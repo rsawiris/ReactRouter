@@ -66,6 +66,12 @@ function App() {
     return(
         <div>
             <h1>{user.name}</h1>
+            <ul>
+              <li>Username: {user.username}</li>
+              <li>Email; {user.email}</li>
+              <li>Phone: {user.phone}</li>
+              <li>Website: {user.website}</li>
+            </ul>
             <Link to='/users'>
                 Back to all Users
             </Link>
